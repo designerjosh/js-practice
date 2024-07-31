@@ -1,0 +1,48 @@
+
+/* 
+ORDER OF OPERATIONS IN CSS
+
+1. BEHAVIOR
+    display:
+    float:
+    position:
+    flex-direction:
+    flex-wrap:
+    grid: 
+    align-items: 
+    justify-content: 
+    align-self: 
+    justify-self: 
+    text-align: 
+
+2. SPACE
+    margin:
+    padding: 
+    width: 
+    max/min-width: 
+    height: 
+    max/min-height: 
+
+THE STYLES BELOW ⌄ SHOULD * NOT * EFFECT THE STYLES ABOVE ^
+Fonts, colors and images should be able to be changed in almost any way, and the responsive functionality of the site's layout and spacing should remain unaffected.
+
+3. TEXT
+    font-family: 
+    font-size: 
+    font-weight: 
+    font-style: 
+    text-transform: 
+    line-height: 
+
+4. COLORS and IMAGES
+    image: 
+    background-image: 
+    color: 
+    background color: 
+    background: 
+    opacity: 
+    border: 
+    border-radius: 
+    border-thickness: 
+
+*/

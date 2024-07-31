@@ -1,0 +1,194 @@
+img, embed, object, video {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 520px) {
+	/* Example embedded Media Query */ 
+}
+
+
+/* Visibility of Sections */
+
+/*
+div {
+	border: solid red 1px;
+	padding: 5px;
+	margin: 5px;
+}
+
+header {
+	border: solid blue 1px;
+	padding: 5px;
+	margin: 5px;
+}
+
+main {
+	border: solid green 1px;
+	padding: 5px;
+	margin: 5px;
+}
+
+footer {
+	border: solid purple 1px;
+	padding: 5px;
+	margin: 5px;
+}
+*/
+
+
+
+div {
+	margin: 1em;
+}
+
+
+/* Custom Lables */
+
+.small {
+	font-size: 1em;
+	color: #808083;
+}
+
+.medium {
+	font-size: 1.25em;
+	color: #414042
+}
+
+ul {
+	padding: 1em;
+}
+
+#summary {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60vw;
+	min-width: 500px;
+	margin: 10vw;
+}
+
+#education {
+	width: 60vw;
+	min-width: 500px;
+}
+
+#work-history {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#work-history h2 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#work-history div div {
+	width: 60vw;
+	min-width: 500px;
+}
+
+.side-by-side {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+h1, h2, h3, h4, h5, p, li {
+	font-family: 'Georgia';
+	letter-spacing: .01em;
+	line-height: 1.2em;
+}
+
+p, li {
+	font-family: 'Georgia';
+	line-height: 1.5em;
+}
+
+li {
+	list-style-type: circle;
+	list-style-position: outside;
+	line-height: 1.8em;
+}
+
+li::marker {
+	font-size: 1.5em;
+	position: relative;
+	line-height: .75em;
+}
+
+li:hover {
+	list-style-type: disc;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 500;
+	color: white;
+}
+
+h2 {
+	font-size: 2.7em;
+	color: #3969FF;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #414042;
+	background-color: #EFF0F0;
+	padding: 0em .2em;
+	margin: .5em 0em;
+}
+
+h4 {
+	font-size: 1.1em;
+	color: #414042;
+	line-height: 1.5em;
+	padding: 0 1em;
+}
+
+em {
+	font-style: italic;
+}
+
+
+header {
+	background-color: #170947;
+	color: rgba(255,255,255, 0.75);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 2em 0;
+}
+
+header h2 {
+	visibility: hidden;
+}
+
+header li {
+	color: white;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main div {
+
+}
+
+footer {
+	display: flex;
+}

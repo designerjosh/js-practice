@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Mow the lawn",
+        "type": "task",
+        "duration": 3,
+        "time": "null",
+        "date": "07/25/24"
+    },
+    {
+        "name": "Clean the litter box",
+        "type": "task",
+        "duration": 0.5,
+        "time": "6:15",
+        "date": "07/30/24"
+    },
+    {
+        "name": "Coffee with David Marshall",
+        "type": "event",
+        "duration": 1.5,
+        "time": "8:00",
+        "date": "08/05/24"
+    }
+]
